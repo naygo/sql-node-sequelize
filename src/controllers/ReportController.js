@@ -1,3 +1,4 @@
+// controller para relatórios; buscas mais complexas no banco de dados
 const { Op } = require('sequelize');
 const User = require('../models/User');
 

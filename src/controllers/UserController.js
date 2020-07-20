@@ -1,5 +1,3 @@
-// Lida com requisições e devolve respostas para o front-end
-
 const User = require('../models/User');
 
 module.exports = {
