@@ -51,11 +51,11 @@
 
 ## Arquitetura de projetos
 
-+ [src](sql-node-sequelize/scr): fontes da aplicação
++ [src](/src/): fontes da aplicação
 + [server.js](src/server.js): liga o server
 + [routes.js](src/routes.js): estabelicida as rotas que os métodos dos controllers devem tomar
 + [config/database.js](src/config/database.js): exporta um objeto de configurações da conexão ao banco de dados
-+ [database](sql-node-sequelize/database): tudo relacionado ao banco de dados 
++ [database](/database/): tudo relacionado ao banco de dados 
 + [database/index.js](src/database/index.js): onde é estabelido a conexão dos módulos com o banco de dados
 + [.sequelizerc](src/.sequelizerc): informa ao sequelize as credenciais de acesso, e onde deve salvar as migrations
 + [database/migrations](src/database/migrations): migrations criadas pelo sequelize
